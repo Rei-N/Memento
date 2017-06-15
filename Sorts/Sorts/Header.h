@@ -1,7 +1,16 @@
 #pragma once
 #include <iostream>
+#include <string>
 using namespace std;
 
 class Sorts {
-	int a;	
+public:
+	int a;
+	void sortArr();
+};
+
+class Qucik : public Sorts 
+{
+private:
+	
 };

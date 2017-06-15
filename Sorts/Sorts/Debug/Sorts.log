@@ -1,6 +1,4 @@
 ﻿  Source.cpp
-c:\users\user\documents\visual studio 2017\projects\sorts\sorts\source.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\user\documents\visual studio 2017\projects\sorts\sorts\source.cpp(5): warning C4101: 'quick': unreferenced local variable
-c:\users\user\documents\visual studio 2017\projects\sorts\sorts\source.cpp(7): warning C4101: 'answ': unreferenced local variable
-  Sorts.vcxproj -> C:\Users\USER\Documents\Visual Studio 2017\Projects\Sorts\Debug\Sorts.exe
-  Sorts.vcxproj -> C:\Users\USER\Documents\Visual Studio 2017\Projects\Sorts\Debug\Sorts.pdb (Partial PDB)
+c:\users\user\documents\visual studio 2017\projects\memento\sorts\sorts\source.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Sorts.vcxproj -> C:\Users\USER\Documents\Visual Studio 2017\Projects\Memento\Sorts\Debug\Sorts.exe
+  Sorts.vcxproj -> C:\Users\USER\Documents\Visual Studio 2017\Projects\Memento\Sorts\Debug\Sorts.pdb (Partial PDB)

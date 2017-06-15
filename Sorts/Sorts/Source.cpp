@@ -40,11 +40,14 @@ void Sorts::printSort() {
 
 int main()
 {
-	string str;
+	string str, updown;
+	bool asc = false;
 	int *arr;
 	int n;
 	cout << "yes/no\n";
 	getline(cin, str);
+	cout << "asc/desc\n";
+	getline(cin, updown);
 	if (str == "yes") {
 		cin >> n;
 		arr = new int[n];
@@ -58,12 +61,12 @@ int main()
 		arr = temp;
 		n = 10;
 	}
-	Bubble bubsort(arr, true, n);
+	if (updown == "asc") {
+		asc = true;
+	}
+	Bubble bubsort(arr, asc, n);
 	bubsort.sortArr();
 	bubsort.printSort();
-	//for (int i = 0; i < 10; i++) {
-	//	cout << arr[i];
-	//}
-
+	delete[] arr;
 	return 0;
 }

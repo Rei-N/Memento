@@ -5,12 +5,17 @@ using namespace std;
 
 class Sorts {
 public:
-	int a;
+	int *arr;
+	int n;
+	bool asc;
+	Sorts(int arrr[], bool asc, int n) : asc(asc), arr(arrr), n(n) {};
+	void printSort();
 	void sortArr();
 };
 
-class Qucik : public Sorts 
+class Bubble : public Sorts 
 {
-private:
-	
+public:
+	Bubble(int aa[], bool asc, int n) : Sorts(aa, asc, n) {};
+	void sortArr();
 };
